@@ -34,6 +34,7 @@ The output is a network with the votes given. The image is saved in the plot fol
 **NOTES:**
 The code and data is free to use and adapt given that the authors are credited.
 For code ehcolombo should be credited and for data (BBB21) [quaseobjeto]([https://link-url-here.org](https://linktr.ee/quaseobjeto)https://linktr.ee/quaseobjeto) should be credited (data was collected manually over the whole 2021 edition).
+(See MIT license for details)
 
 Python packages needed are:
 numpy,os,igraph,PIL
