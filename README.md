@@ -1,11 +1,12 @@
+The code and data were part of a mock science project developed during the Big Brother Brasil (2021 edition) in collaboration with [quaseobjeto]([https://link-url-here.org](https://linktr.ee/quaseobjeto)https://linktr.ee/quaseobjeto).
+The project aimed to quantify the interactions among BBB participants using the daily emoji votes (queridometro) and the votes during the elimination round (paredao).
+Fights, friendshipts, love stories, and all the drama is quantified by means of networks.
+
 The repository contains two mains scripts:
 
 getParedao.py
 getQueridometro.py
 
-Both developed during the Big Brother Brasil (2021 edition) in collaboration with [quaseobjeto]([https://link-url-here.org](https://linktr.ee/quaseobjeto)https://linktr.ee/quaseobjeto).
-This two scripts were part of a mock science project to quantify the interactions among BBB participants using the daily emoji votes (queridometro) and the votes during the elimination round (paredao).
-Fights, friendshipts, love stories, and all the drama is quantified by means of networks.
 
 **getParedao.py**
 
