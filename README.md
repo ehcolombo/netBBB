@@ -9,6 +9,7 @@ Fights, friendshipts, love stories, and all the drama is quantified by means of 
 
 **getParedao.py**
 Usage:
+
 Create a file "BBB Stats - paredao-atual.csv" in the data folder. This csv file contains two column who voted in who (as an example see data from BBB2021 in the data folder)
 Then, from the netBB folder, the script can be ran on the terminal with the command:
 `python getParedao.py`
@@ -16,6 +17,7 @@ the output is an image "paredao_atual.png" in the plot folder.
 
 **getQueridometro.py**
 Usage:
+
 Create a file "BBB Stats - DAY.csv" where DAY is a number (1,2,3,...). This csv file contains the adjancy matrix of the emoji votes (who gave which emoji to which participant). For details see data from BBB21 on the data folder.
 Then, from the netBB folder, the script can be ran on the terminal with command:
 `python getQueridometro DAY` where again DAY is a number for the day you want the queridometro network.
