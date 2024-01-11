@@ -99,13 +99,6 @@ def getEdgePositiveness(w):
 N_participantes = 0
 Participantes_0 = []
 
-output_statsTo = open("statsTo_participantes.dat","w+") ## como o participante é visto
-output_statsFrom = open("statsFrom_participantes.dat","w+") ## como o participante ve a casa
-output_statsNetwork = open("statsNetwork_alldays.dat", "w+") ## stats da rede no tempo
-
-
-
-
 filename = "./data/BBB Stats - "+str(day)+".csv"
 if path.exists(filename):
 	input_data = open(filename,"r",encoding="utf8")
@@ -135,17 +128,6 @@ if path.exists(filename):
 				if col[j].rstrip()==weights[k]:								
 					A[i][j-1]=k #adjust to linewidth. use k for state-dependent							
 	
-	#### SAVE STATS IN TIME (network)
-	# save temperature: mais alta mais tenso
-	temp = 0.0	
-	for i in range(0,N_participantes):
-		for j in range(0,N_participantes):
-			temp = temp + (-getEdgePositiveness(A[i][j])+1.0)/2.0 ## goes from 0 (bads) to 1 (goods)			
-	
-	#normalize temp (max happiness)
-	temp = temp/(N_participantes*(N_participantes - 1))
-	output_statsNetwork.write(str(day) + "\t" + str(temp) + "\t")
-
 	# get adjancy matrix sub - <3
 	A_sub = np.zeros((N_participantes,N_participantes))
 	#
@@ -178,7 +160,7 @@ if path.exists(filename):
 			if(A_sub[i][j]==1):
 				gs.add_edge(gs.vs.find(label=Participantes[i]), gs.vs.find(label=Participantes[j]), weight=1.0, color=getEdgeColor(A_sub[i][j]) )
 			#print(i,j,A[i][j])
-	output_statsNetwork.write(str(gs.transitivity_undirected()) + "\n")	
+	
 
 	# get igraph from adjancy matrix
 	# Create a directed graph
