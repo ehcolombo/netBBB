@@ -99,10 +99,6 @@ N_participantes = 0
 Participantes_0 = []
 Participantes = []
 
-output_statsTo = open("statsTo_participantes.dat","w+") ## como o participante é visto
-output_statsFrom = open("statsFrom_participantes.dat","w+") ## como o participante ve a casa
-output_statsNetwork = open("statsNetwork_alldays.dat", "w+") ## stats da rede no tempo
-
 
 filename = "./data/BBB Stats - paredao-atual"+".csv"
 
@@ -166,7 +162,7 @@ img = Image.open(out_name)
 d1 = ImageDraw.Draw(img)
 d1.text((m, m), "Paredão 14 (22 de Março)",anchor="lt", fill=(0, 0, 0),font=font)	
 d1.text((h-m, w-m), "@analisebbb21", anchor="rb", fill=(0, 0, 0),font=font)	
-img.save("plot/teste_paredao.png")
+img.save(out_name)
 #img = Image.open(out_name)
 #img_lgd = Image.open("./legend.png")		
 #img.paste(img_lgd, (1100,0))
