@@ -38,4 +38,4 @@ For code ehcolombo should be credited and for data (BBB21) [quaseobjeto]([https:
 
 
 Python packages needed are:
-numpy,os,igraph,PIL
+numpy,os,igraph,Pillow
