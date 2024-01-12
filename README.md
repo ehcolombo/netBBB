@@ -14,7 +14,7 @@ getQueridometro.py
 Usage:
 
 Create a file "BBB Stats - paredao-atual.csv" in the data folder. This csv file contains two column who voted in who (as an example see data from BBB2021 in the data folder)
-Then, from the netBB folder, the script can be ran on the terminal with the command:
+Then, from the netBBB folder, the script can be ran on the terminal with the command:
 
 `python getParedao.py`
 
