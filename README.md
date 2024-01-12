@@ -33,9 +33,9 @@ where again DAY is a number for the day you want the queridometro network.
 The output is a network with the votes given. The image is saved in the plot folder with name "queridometro_dia_DAY.png".
 
 **NOTES:**
-The code and data is free to use and adapt given that the authors are credited (See MIT license for details).
-For code ehcolombo should be credited and for data (BBB21) [quaseobjeto]([https://link-url-here.org](https://linktr.ee/quaseobjeto)https://linktr.ee/quaseobjeto) should be credited (data was collected manually over the whole 2021 edition).
+1. The code and data is free to use and adapt given that the authors (ehcolombo and quaseobjeto) are credited (See MIT license for details). Data (BBB21) was collected by quaseobjeto [quaseobjeto]([https://link-url-here.org](https://linktr.ee/quaseobjeto)https://linktr.ee/quaseobjeto).
+2. To run the script on Windows substitute the font in the scripts by arial.ttf or something else you would like.
 
 
 Python packages needed are:
-numpy,os,igraph,Pillow
+numpy,os,igraph,Pillow,pycairo
