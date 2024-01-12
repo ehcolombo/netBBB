@@ -33,7 +33,7 @@ where again DAY is a number for the day you want the queridometro network.
 The output is a network with the votes given. The image is saved in the plot folder with name "queridometro_dia_DAY.png".
 
 **NOTES:**
-1. The code and data is free to use and adapt given that the authors (ehcolombo and quaseobjeto) are credited (See MIT license for details). Data (BBB21) was collected by quaseobjeto [quaseobjeto]([https://link-url-here.org](https://linktr.ee/quaseobjeto)https://linktr.ee/quaseobjeto).
+1. The code and data is free to use and adapt given that the authors (ehcolombo and quaseobjeto) or directly the project netBBB are credited (See MIT license for details). Data (BBB21) was collected by [quaseobjeto]([https://link-url-here.org](https://linktr.ee/quaseobjeto)https://linktr.ee/quaseobjeto).
 2. To run the script on Windows substitute the font in the scripts by arial.ttf or something else you would like.
 
 
