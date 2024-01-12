@@ -25,7 +25,7 @@ the output is an image "paredao_atual.png" in the plot folder.
 Usage:
 
 Create a file "BBB Stats - DAY.csv" where DAY is a number (1,2,3,...). This csv file contains the adjancy matrix of the emoji votes (who gave which emoji to which participant). For details see data from BBB21 on the data folder.
-Then, from the netBB folder, the script can be ran on the terminal with command:
+Then, from the netBBB folder, the script can be ran on the terminal with command:
 
 `python getQueridometro DAY` 
 
